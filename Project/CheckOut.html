@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html leng="en">
+	<head>
+		<title>
+			CheckOut
+        </title>
+        <link href="css/CheckOutStyleSheet.css" rel="stylesheet"/>
+		<script src="js/CheckOutJavaScript.js"></script>
+	</head>
+	<body>
+        <form action="#" method="post" id="submitForm">
+        <p><h1>Check Out</h1></p>
+		<div class="content">
+            <div class="creditCardInfo">
+                    <h3>Credit Card Info</h3>
+                    <div><label for="cardNumber">*Card Number</label></div>
+                    <div><input type="text" id="cardNumber" name="cardNumber"></input></div>
+
+                    <div><label for="CVC">*CVC</label></div>
+                    <div><input type="text" id="CVC" name="CVC"></input></div>
+
+                    <div><label for="nameOnTheCard">*Name on the Card</label></div>
+                    <div><input type="text" id="nameOnTheCard" name="nameOnTheCard"></input></div>
+
+                    <div><label for="expriation">*Expriation</label></div>
+                    <div><input type="text" id="expriation" name="expriation"></input></div>
+                    
+                    <div><input type="button" value="Clear"></input></div>
+
+                    <div><label for="totalPurchase">Total Purchase</label></div>
+                    <div><input type="text" id="totalPurchase" name="totalPurchase" disabled="disabled"></input></div>  
+                    <div><a href="#">Show Terms</a></div>
+                    <div><input type="checkbox" id="agreeTerms" name="agreeTerms"></input><label id="lblAgreeTerms" for="agreeTerms">*Agree Terms and Conditions</label></div>
+            </div>
+            <div class="shippingAddress">
+                    <h3>Shipping Address</h3>
+                    <div><label for="customerName">*Name</label></div>
+                    <div><input type="text" id="customerName" name="customerName"></input></div>
+
+                    <div><label for="address">*Address</label></div>
+                    <div><input type="text" id="address" name="address"></input></div>
+
+                    <div><label for="addressLine2">Address Line2</label></div>
+                    <div><input type="text" id="addressLine2" name="addressLine2"></input></div>
+                        
+                    <div><label for="city">*City</label></div>
+                    <div><input type="text" id="city" name="city"></input></div>
+
+                    <div><label for="postalCode">*Postal Code</label></div>
+                    <div><input type="text" id="postalCode" name="postalCode"></input></div>
+
+                    <div><label for="province">*Province</label></div>
+                    <div><input type="text" id="province" name="province"></input></div>
+
+                    <div><label for="country">*Country</label></div>
+                    <div><input type="text" id="country" name="country"></input></div>
+            </div>
+        </div>
+        <div class="submit"><input type="submit" id="submit" value="Bring my babies to my home2"></div>
+    </form>
+	</body>
+</html>

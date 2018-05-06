@@ -1,0 +1,36 @@
+img{
+    width: 320px;
+    height: 200px;
+}
+
+.element{
+    float: left;
+    padding: 1.3em;
+    margin: 1.1em;
+    border:1px solid lightblue;
+    background-color: lavenderblush;
+}
+
+.price{
+    float: left;
+}
+
+.select{
+    float: right;
+}
+
+.button{
+    clear:both;
+    text-align: right;
+    padding: 1em;
+}
+
+#bird{
+    width: 30px;
+    height: 30px;
+    background-color: greenyellow;
+    position: fixed;
+    /* position:relative; */
+    float: relative;
+    z-index: 99999;
+}

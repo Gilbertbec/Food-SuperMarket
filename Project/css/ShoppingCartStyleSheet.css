@@ -1,0 +1,16 @@
+table{
+    margin: auto;
+    text-align: center;
+}
+
+td{
+    background-color: khaki;
+    width: 200px;
+    padding: 1em;
+    text-align: center;
+}
+
+.checkOut{
+    text-align: center;
+    margin: 10px;
+}

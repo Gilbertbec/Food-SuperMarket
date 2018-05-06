@@ -1,0 +1,49 @@
+body{
+    background-color: lemonchiffon;
+}
+
+H1{
+    text-align: center;
+}
+
+input[type="text"]{
+    width: 400px;
+}
+
+div{
+    padding: 5px;
+}
+
+.content{
+    width: 80%;
+    margin: auto;
+}
+
+.creditCardInfo{
+    float: left;
+    /* display: inline-block; */
+}
+
+.shippingAddress{
+    float: right;
+}
+
+.submit{
+    clear:both;
+    text-align: center;
+}
+
+#submit{
+    width:888px;
+    height: 888px;
+    background-color: gold;
+    white-space: normal;
+}
+
+.noError{
+    background-color: white;
+}
+
+.Error{
+    background-color: red;
+}
